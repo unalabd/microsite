@@ -1,7 +1,0 @@
-machine:
-  node:
-    version: 0.12.2
-general:
-  branches:
-    only:
-      - master
