@@ -5,3 +5,11 @@ general:
   branches:
     only:
       - master
+dependencies:
+  pre:
+    - git config --global user.name "Circle CI"
+    - git config --global user.email "build@circleci"
+    - npm install -g gulp
+
+  test:
+    override: gulp --require 'coffee-script/register' deploy
