@@ -8,8 +8,8 @@ angular.module 'bakacakWeb', [
 # angular material config
 .config ($mdThemingProvider) ->
   $mdThemingProvider.theme 'default'
-    .primaryPalette 'purple'
-    .accentPalette 'red'
+    .primaryPalette 'yellow'
+    .accentPalette 'light-blue'
   return
 
 # bootstrap angular app
