@@ -12,4 +12,5 @@ dependencies:
     - npm install -g gulp
 
 test:
-  override: "gulp --require 'coffee-script/register' deploy"
+  override:
+    - gulp --require 'coffee-script/register' deploy
