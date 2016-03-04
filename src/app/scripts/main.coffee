@@ -8,7 +8,7 @@ angular.module 'bakacakWeb', [
 # angular material config
 .config ($mdThemingProvider) ->
   $mdThemingProvider.theme 'default'
-    .primaryPalette 'cyan'
+    .primaryPalette 'orange'
     .accentPalette 'red'
   return
 
