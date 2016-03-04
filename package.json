@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:dbtek/microsite.git"
+    "url": "git@github.com:unalabd/web.git"
   },
   "author": "İsmail Demirbilek",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dbtek/microsite/issues"
+    "url": "https://github.com/unalabd/web/issues"
   },
-  "homepage": "https://github.com/dbtek/microsite#readme",
+  "homepage": "https://github.com/unalabd/web#readme",
   "devDependencies": {
     "angular": "1.3.15",
     "angular-animate": "1.3.15",
